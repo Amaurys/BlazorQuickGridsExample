@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickGridsProject", "QuickGridsProject\QuickGridsProject.csproj", "{AB34D820-4195-4BB8-834D-DF1E58766585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB34D820-4195-4BB8-834D-DF1E58766585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34D820-4195-4BB8-834D-DF1E58766585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34D820-4195-4BB8-834D-DF1E58766585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34D820-4195-4BB8-834D-DF1E58766585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83F14055-7EA6-4609-8185-FCE2F7F5B7F6}
+	EndGlobalSection
+EndGlobal

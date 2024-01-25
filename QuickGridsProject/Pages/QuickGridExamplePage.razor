@@ -1,0 +1,13 @@
+﻿@page "/quickgrid"
+@inject HttpClient Http
+
+<PageTitle>QuickGrid Example</PageTitle>
+
+<h1>QuickGrid Example</h1>
+
+<QuickGrid Items="@CreateCarList()" Virtualize="true" >
+    <PropertyColumn Property="@(p => p.Id)" Sortable="true" >  
+    </PropertyColumn>
+    <PropertyColumn Property="@(p => p.Name)" Sortable="true" />
+    <PropertyColumn Property="@(p => p.Cost)" Sortable="true" />
+</QuickGrid>
